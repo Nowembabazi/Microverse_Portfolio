@@ -48,6 +48,11 @@
   text-align: center;
   vertical-align: center;
   color: #6070ff;
+  text-decoration: none;
+}
+
+.mylogo {
+  text-decoration: none;
 }
 
 a {
@@ -56,6 +61,7 @@ a {
 
 .burger {
   color: #6070ff;
+
 }
 
 .intro {
@@ -118,16 +124,25 @@ ul {
 }
 
 .icons {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 24px;
-  z-index: 1;
+  list-style: none;
   display: flex;
-  margin-left: 30px;
-  flex: 1;
-  align-items: left;
-  justify-content: flex-start;
-  padding: 5px;
-  margin-top: -4px;
+  max-width: 100%;
+  position: relative;
+}
+  
+.twitter {
+  margin-left: 0;
+}
+  
+.vector1 {
+  padding-left: 10px;
+  padding-right: 3px;
+}
+  
+.medium {
+  padding-left: 10px;
+}
+
+.github {
+  padding-left: 10px;
 }
