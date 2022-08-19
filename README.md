@@ -4,7 +4,7 @@
 -add html tags to my page.
 -applied a background
 -applied icons to my page
--styled using css style.
+-styled using css style
 -Applied linters to my project
 -created a .gitingnore file.
 
