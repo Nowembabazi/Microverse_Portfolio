@@ -61,7 +61,6 @@ a {
 
 .burger {
   color: #6070ff;
-
 }
 
 .intro {
@@ -123,26 +122,25 @@ ul {
   text-align: center;
 }
 
+.github {
+    padding-right: 5px;
+}
+
+.medium {
+    padding-right: 5px;
+}
+
+.twitter {
+  padding-right: 5px;
+}
+
+.vector2 {
+  padding-right: 5px;
+}
+
 .icons {
   list-style: none;
   display: flex;
   max-width: 100%;
   position: relative;
-}
-  
-.twitter {
-  margin-left: 0;
-}
-  
-.vector1 {
-  padding-left: 10px;
-  padding-right: 3px;
-}
-  
-.medium {
-  padding-left: 10px;
-}
-
-.github {
-  padding-left: 10px;
 }
