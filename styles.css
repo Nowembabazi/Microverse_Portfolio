@@ -1013,7 +1013,7 @@ ul {
 .framework {
   display: flex;
   text-align: center;
-  margin-left: 20px;
+  margin-left: 0;
   margin-right: 80px;
   flex: 1 1 auto;
   justify-content: space-between;
@@ -1024,7 +1024,7 @@ ul {
   display: flex;
   text-align: center;
   flex: 1 1 auto;
-  margin-left: 20px;
+  margin-left: 0;
   margin-right: 80px;
   justify-content: space-between;
   border-bottom: 1px solid #acb7c3;
@@ -1042,7 +1042,6 @@ ul {
   color: #000;
   font-style: normal;
   font-weight: 500px;
-  margin-left: -36px;
   font-size: 20px;
 }
 
@@ -1058,7 +1057,7 @@ ul {
 }
 
 .mylanguage {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 25px;
   margin: auto;
 }
