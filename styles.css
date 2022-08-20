@@ -112,21 +112,21 @@ ul {
 }
 
 .github {
-  padding-right: 5px;
+  padding-right: 14px;
 }
 
 .medium {
-  padding-right: 5px;
+  padding-right: 14px;
 }
 
 .twitter {
-  padding-right: 5px;
+  padding-right: 14px;
   padding-left: 0;
   margin: 0;
 }
 
 .vector2 {
-  padding-right: 5px;
+  padding-right: 14px;
   padding-left: 2px;
 }
 
@@ -135,6 +135,8 @@ ul {
   display: flex;
   max-width: 100%;
   position: relative;
+  margin: 3px;
+  padding-left: 15px;
 }
 
 .work-section {
@@ -882,7 +884,9 @@ ul {
 .aboutmy {
   padding-bottom: 70px;
   padding-left: 20px;
-  font-weight: 80px;
+  font-weight: 900;
+  font-size: 40px;
+  color: #172b4d;
 }
 
 .am {
@@ -903,12 +907,17 @@ ul {
   font-style: medium;
   font-size: 16px;
   line-height: 24px;
-  margin-left: 24px;
+  margin-left: 5px;
   margin-right: 224px;
   align-items: left;
   vertical-align: top;
   color: #7f8cff;
   margin-top: 4px;
+  text-decoration: none;
+  border: none;
+  padding-bottom: 15px;
+  background-color: white;
+
 }
 
 .contact-icon {
@@ -1025,7 +1034,7 @@ ul {
 .framework p {
   color: #000;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   margin-left: -36px;
   font-size: 20px;
 }
@@ -1033,7 +1042,7 @@ ul {
 .skills p {
   color: #000;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   margin-left: -36px;
   font-size: 20px;
 }
@@ -1041,9 +1050,16 @@ ul {
 .framework i {
   margin-top: 26px;
   margin-right: 36px;
+  font-weight: 500px;
 }
 
 .skills i {
   margin-top: 26px;
   margin-right: 36px;
+}
+
+.mylanguage {
+  font-weight: 700;
+  font-size: 40px;
+  margin: auto;
 }
