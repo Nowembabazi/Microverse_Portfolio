@@ -896,17 +896,6 @@ ul {
   color: #344563;
 }
 
-.grid-container4 {
-  display: grid;
-  height: 2px;
-  margin-right: 50px;
-  margin-left: 20px;
-  align-content: center;
-  margin-top: -40px;
-  grid-template-columns: auto auto auto auto auto auto;
-  padding: 18px;
-}
-
 .connect {
   font-style: medium;
   font-size: 16px;
