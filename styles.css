@@ -989,7 +989,7 @@ ul {
   margin-top: 26px;
 }
 
-/* .outer-item {
+.outer-item {
   display: flex;
   margin-left: 20px;
   margin-right: 80px;
@@ -1000,10 +1000,6 @@ ul {
   background-color: #f7f7f9;
   padding: 5px 5px;
   margin-bottom: 10px;
-} */
-
-.outer-item {
-  float: left;
 }
 
 .outer-item p {
@@ -1073,4 +1069,15 @@ ul {
 
 .html {
   float: right;
+}
+.footer {
+  display: flex;
+  height: 640px;
+  width: 360px;
+  flex-direction: column;
+  font-family: Poppins, Arial, verdana, sans-serif;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+  background-color: #6070ff;
 }
