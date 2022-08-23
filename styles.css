@@ -1063,13 +1063,6 @@ ul {
   margin: auto;
 }
 
-.css {
-  float: left;
-}
-
-.html {
-  float: right;
-}
 .footer {
   display: flex;
   height: 640px;
@@ -1080,4 +1073,51 @@ ul {
   justify-content: center;
   text-align: center;
   background-color: #6070ff;
+}
+
+.infor {
+  display: block;
+  color: #f7f7f9;
+  padding-top: 30px;
+  margin-top: -40px;
+}
+
+.about-infor {
+  color: #f7f7f9;
+}
+
+.name {
+  padding-left: 68px;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+}
+
+.email {
+  padding-left: 68px;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-left: -20px;
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+}
+
+.message {
+  display: absolute;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: -20px;
+  border: 1px solid #cfd8dc;
+}
+
+.getin {
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #cfd8dc;
+  padding-left: 6px;
+  margin-left: -200px;
 }
