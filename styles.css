@@ -1018,6 +1018,7 @@ ul {
   flex: 1 1 auto;
   justify-content: space-between;
   border-bottom: 1px solid #acb7c3;
+  margin-top: 50px;
 }
 
 .skills {
@@ -1060,4 +1061,81 @@ ul {
   font-weight: 600;
   font-size: 25px;
   margin: auto;
+}
+
+.footer {
+  display: flex;
+  height: 779px;
+  width: 360px;
+  flex-direction: column;
+  font-family: Poppins, Arial, verdana, sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  background-color: #6070ff;
+  background-image: url(images/background-contact.png);
+  background-repeat: no-repeat;
+  border-top-left-radius: 100px;
+  background-position: top right;
+}
+
+.infor {
+  display: block;
+  color: #f7f7f9;
+  padding-top: 30px;
+  margin-top: -40px;
+}
+
+.about-infor {
+  color: #f7f7f9;
+}
+
+.name {
+  padding-left: 68px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+}
+
+.email {
+  padding-left: 68px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-left: -20px;
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+}
+
+.message {
+  display: absolute;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: -20px;
+  border: 1px solid #cfd8dc;
+}
+
+.getin {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #6070ff;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #cfd8dc;
+  padding-left: 10px;
+  margin-left: -200px;
+}
+
+.getin:hover {
+  background: #8f9afc;
+  color: white;
+}
+
+.getin:active {
+  background: #0416b6;
+  color: white;
 }
