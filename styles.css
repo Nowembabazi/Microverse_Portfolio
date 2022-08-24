@@ -1065,14 +1065,18 @@ ul {
 
 .footer {
   display: flex;
-  height: 640px;
+  height: 779px;
   width: 360px;
   flex-direction: column;
   font-family: Poppins, Arial, verdana, sans-serif;
   margin-top: 40px;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
   background-color: #6070ff;
+  background-image: url(images/background-contact.png);
+  background-repeat: no-repeat;
+  border-top-left-radius: 100px;
+  background-position: top right;
 }
 
 .infor {
@@ -1088,7 +1092,8 @@ ul {
 
 .name {
   padding-left: 68px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 30px;
   margin-bottom: 10px;
   margin-left: -20px;
@@ -1098,7 +1103,8 @@ ul {
 
 .email {
   padding-left: 68px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 15px;
   margin-left: -20px;
   border-radius: 6px;
@@ -1114,10 +1120,22 @@ ul {
 }
 
 .getin {
-  padding: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #6070ff;
   margin-top: 15px;
   border-radius: 10px;
   border: 1px solid #cfd8dc;
-  padding-left: 6px;
+  padding-left: 10px;
   margin-left: -200px;
+}
+
+.getin:hover {
+  background: #8f9afc;
+  color: white;
+}
+
+.getin:active {
+  background: #0416b6;
+  color: white;
 }
