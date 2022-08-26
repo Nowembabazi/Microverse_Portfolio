@@ -334,6 +334,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: all;
+    transition-duration: 2s;
   }
 
   .submit:hover {
