@@ -348,7 +348,6 @@
     display: flex;
     z-index: 0;
     height: 496px;
-    padding-right: 1000px;
     width: 1158px;
     position: relative;
     flex-direction: row;
@@ -368,6 +367,8 @@
   }
 
   .snap-screen2 {
+    display: flex;
+    margin-left: 600px;
     padding-right: 20px;
     width: 544px;
     height: 448px;
@@ -379,6 +380,12 @@
   .snap-screen3 {
     display: flex;
     margin-left: 0;
+    padding-right: 20px;
+    width: 544px;
+    height: 448px;
+    top: 24px;
+    bottom: 24px;
+    position: absolute;
   }
 
   .aboutworks-three {
@@ -405,13 +412,14 @@
     margin-top: 80px;
   }
 
-  .snap-screen2 {
-    display: flex;
-    margin-left: 600px;
-  }
-
   .snap-screen4 {
     display: flex;
+    padding-right: 20px;
+    width: 544px;
+    height: 448px;
+    top: 24px;
+    bottom: 24px;
+    position: absolute;
   }
 
   .grid-container2 {
@@ -604,15 +612,6 @@
     width: 544px;
     height: 448px;
     margin-left: 600px;
-  }
-
-  .snap-screen3 {
-    padding-right: 20px;
-    width: 544px;
-    height: 448px;
-    top: 24px;
-    bottom: 24px;
-    position: absolute;
   }
 
   .tonic-three {
@@ -818,15 +817,6 @@
     width: 544px;
     height: 448px;
     margin-right: 600px;
-  }
-
-  .snap-screen4 {
-    padding-right: 20px;
-    width: 544px;
-    height: 448px;
-    top: 24px;
-    bottom: 24px;
-    position: absolute;
   }
 
   .tonic-four {
@@ -1221,7 +1211,6 @@
     background-color: #fff;
     border: none;
     font-size: 18px;
-    margin-left: -25px;
     font-weight: 500px;
     line-height: 25px;
     letter-spacing: 3%;
