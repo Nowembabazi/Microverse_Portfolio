@@ -297,6 +297,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: all;
+    transition-duration: 3s;
   }
 
   .btn3 {
@@ -313,6 +315,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: all;
+    transition-duration: 3s;
   }
 
   .submit {
@@ -330,6 +334,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: all;
+    transition-duration: 2s;
   }
 
   .submit:hover {
