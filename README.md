@@ -15,6 +15,9 @@
 - css
 - Markdown
 
+live demo
+https://nowembabazi.github.io/Microverse_Portfolio/
+
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
