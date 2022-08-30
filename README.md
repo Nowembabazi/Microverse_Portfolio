@@ -15,7 +15,6 @@
 - css
 - Markdown
 
-live demo
 https://nowembabazi.github.io/Microverse_Portfolio/
 
 ## Getting Started
