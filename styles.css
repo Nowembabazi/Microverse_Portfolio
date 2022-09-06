@@ -45,6 +45,7 @@ nav {
 }  */
 
 a {
+  font-family: Poppins, Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -54,6 +55,7 @@ a {
 }
 
 .mobile-item {
+  font-family: Poppins, Arial, Verdana, sans-serif;
   position: fixed;
   height: 100%;
   left: 0;
@@ -66,6 +68,7 @@ a {
 }
 
 .mobile-item a {
+  font-family: Poppins, Arial, Verdana, sans-serif;
   list-style: none;
   text-decoration: none;
   justify-content: space-between;
@@ -81,6 +84,7 @@ a {
   color: #6070ff;
   margin-top: 5px;
   line-height: 16px;
+  font-family: Poppins, Arial, Verdana, sans-serif;
 }
 
 .works-flex-pop span a {
@@ -112,6 +116,7 @@ a {
 }
 
 .intro {
+  font-family: Poppins, Arial, Verdana, sans-serif;
   font-weight: bold;
   margin-left: 24px;
   margin-right: 24px;
@@ -127,6 +132,7 @@ a {
 }
 
 .about {
+  font-family: Poppins, Arial, Verdana, sans-serif;
   font-size: 10px;
   margin-left: 24px;
   margin-right: 24px;
@@ -151,6 +157,7 @@ ul {
 }
 
 .description {
+  font-family: Poppins, Arial, Verdana, sans-serif;
   font-style: medium;
   font-size: 10px;
   line-height: 24px;
