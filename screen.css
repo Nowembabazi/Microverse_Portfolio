@@ -29,6 +29,7 @@
   }
 
   .flex-item1,
+  .mobile-item,
   .item,
   .snap,
   .snap2,
@@ -43,35 +44,37 @@
   }
 
   .nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     display: flex;
     flex: 1 1 auto;
     align-items: center;
-    height: 25px;
-    padding: 1em;
+    height: 100px;
+    /* padding: 1em; */
     background-color: white;
     z-index: 4;
     justify-content: space-between;
   }
 
-  .logo a {
+  .mylogo a {
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
     line-height: 20px;
     color: #6070ff;
-    margin-left: 150px;
-    float: right;
+    margin-left: 100px;
+    float: left;
+    padding-right: 700px;
+    padding-top: 5px;
   }
 
-  .nav-item {
+  .desk-item {
     display: flex;
     flex-direction: row;
     margin-right: 80px;
   }
 
-  .nav-item a {
+  .desk-item a {
     padding-right: 48px;
     color: #344563;
     font-size: 20px;
@@ -79,6 +82,7 @@
     line-height: 30px;
     text-align: center;
     transition: color 2s;
+    float: left;
   }
 
   .top {
