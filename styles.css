@@ -96,6 +96,10 @@ a {
   font-weight: lighter;
 }
 
+.closeMenu i {
+  font-size: 20px;
+}
+
 .mobile-nav {
   padding: 15px 28px;
 }
