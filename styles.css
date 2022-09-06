@@ -1122,73 +1122,84 @@ ul {
   margin: auto;
 }
 
-.footer {
-  display: flex;
-  height: 779px;
-  width: 360px;
-  flex-direction: column;
-  font-family: Poppins, Arial, verdana, sans-serif;
-  margin-top: 40px;
-  text-align: center;
-  justify-content: center;
+.contact {
   background-color: #6070ff;
-  background-image: url(images/background-contact.png);
-  background-repeat: no-repeat;
-  border-top-left-radius: 100px;
-  background-position: top right;
+  background-image: url(../images/contact.png);
+  background-size: 100%;
+  border-top-left-radius: 120px;
+  margin-top: 110px;
 }
 
-.infor {
-  display: block;
-  color: #f7f7f9;
-  padding-top: 30px;
-  margin-top: -40px;
+.inner-div {
+  padding-top: 100px;
+  padding-right: 34px;
+  padding-left: 22px;
 }
 
-.about-infor {
-  color: #f7f7f9;
-  margin-left: 15px;
-  margin-right: 15px;
+.inner-div h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 0;
 }
 
-.name {
-  padding-left: 68px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: -20px;
-  border-radius: 6px;
+.inner-div p {
+  left: 26px;
+  top: 4802px;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+li input {
+  background: #fff;
   border: 1px solid #cfd8dc;
+  font-family: Poppins, sans-serif;
+  border-radius: 8px;
+  width: 100%;
+  height: 52px;
+  margin-left: -10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  color: #000;
 }
 
-.email {
-  padding-left: 68px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 15px;
-  margin-left: -20px;
-  border-radius: 6px;
+li textarea {
+  background: #fff;
   border: 1px solid #cfd8dc;
-}
-
-.message {
-  display: absolute;
+  font-family: Poppins, sans-serif;
   border-radius: 10px;
-  margin-top: 15px;
-  margin-left: -20px;
-  border: 1px solid #cfd8dc;
+  width: 100%;
+  height: 150px;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 12px;
+  margin-top: 20px;
+  margin-left: -10px;
 }
 
 .getin {
-  padding-top: 7px;
-  padding-bottom: 7px;
   color: #6070ff;
-  margin-top: 15px;
-  border-radius: 10px;
-  border: 1px solid #cfd8dc;
-  padding-left: 10px;
-  margin-left: -200px;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 28px;
+  letter-spacing: 3%;
+  border-radius: 12px;
+  margin-top: 16px;
+  margin-left: -10px;
+  margin-bottom: 45px;
+  text-align: center;
+  list-style: none;
 }
 
 .getin:hover {
