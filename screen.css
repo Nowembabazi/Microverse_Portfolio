@@ -1061,6 +1061,15 @@
     line-height: 28px;
   }
 
+  .inner-div p {
+    left: 24px;
+    top: 4802px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
   .outer-item li p {
     color: #253858;
     font-weight: 500;
@@ -1147,42 +1156,32 @@
     height: 100%;
     flex-direction: column;
     font-family: Poppins, Arial, verdana, sans-serif;
-
   }
-  
+
   .inner-div {
     padding-top: 100px;
     padding-right: 30px;
     padding-left: 20px;
   }
-  
+
   .inner-div h2 {
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 400;
     padding-bottom: 0;
   }
-  
-  .inner-div p {
-    left: 24px;
-    top: 4802px;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
-  }
-  
+
   .form {
-    padding-right: 30px;
-    padding-left: 20px;
+    padding-right: 28px;
+    padding-left: 22px;
   }
-  
+
   .inner-list {
     display: flex;
     flex-direction: column;
     width: 350px;
-    margin-left: 300px;
+    margin: auto;
   }
 
   li input {
@@ -1199,7 +1198,7 @@
     padding-left: 10px;
     color: #000;
   }
-  
+
   li textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -1214,38 +1213,35 @@
     margin-top: 20px;
     margin-left: -10px;
   }
-  
+
   .getin {
     color: #6070ff;
     background-color: #fff;
     border: none;
     font-size: 18px;
     font-weight: 500px;
-    line-height: 25px;
+    line-height: 26px;
     letter-spacing: 3%;
     border-radius: 10px;
-    /* padding: 10px 18px; */
     margin-top: 16px;
     margin-left: -10px;
     margin-bottom: 40px;
     text-align: center;
     list-style: none;
   }
-  
-  
+
   .shape {
     padding-right: 25%;
     padding-left: 35%;
   }
-  
+
   .getin:hover {
     background: #8f9afc;
     color: white;
   }
-  
+
   .getin:active {
     background: #0416b6;
     color: white;
   }
 }
-  
