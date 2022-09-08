@@ -84,7 +84,18 @@ function fillInputs() {
   email.addEventListener("change", function(event) {
     email.value = event.target.value;
     localStorage.setItem("email", event.target.value);
-  })
+  });
+
+  const text = document.getElementById("text");
+  const valueForText = localStorage.getItem("text")
+  if (valueForText){
+    text.value = valueForText;
+  }
+   
+  text.addEventListener("change",function(event){
+    text.value = event.target.value;
+    localStorage.setItem("text",event.target.value);
+  });
 }
 
 addEventListener("load", () => {
