@@ -44,34 +44,12 @@ nav {
   display: block;
 }  */
 
-a {
-  font-family: Poppins, Arial, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 20px;
-  color: #6070ff;
-  text-decoration-line: none;
-}
-
 .works-flex-pop span a {
   text-decoration: none;
   font-weight: bolder;
   color: #acb7c3;
   font-size: 20px;
   padding-right: 20px;
-}
-
-.mobile-item .close a {
-  font-weight: lighter;
-  font-size: 12px;
-}
-
-.mobile-item .close {
-  padding-top: 50px;
-  text-align: right;
-  padding-right: 38px;
-  font-weight: lighter;
 }
 
 .closeMenu i {
@@ -1092,39 +1070,12 @@ ul {
   display: none;
 }
 
-a {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 20px;
-  color: #6070ff;
-  text-decoration-line: none;
-}
-
-li a {
-  color: #344563;
-  margin-left: -40px;
-  padding-right: 35px;
-}
-
-.mobile-item a {
-  color: #fff;
-}
-
 .flex-item3 a {
   font-size: 13px;
   font-weight: 600;
   display: flex;
   align-content: space-around;
   color: #7a869a;
-}
-
-.works-flex-pop span a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: #acb7c3;
-  font-size: 20px;
-  padding-right: 20px;
 }
 
 .technology a {
@@ -1138,6 +1089,26 @@ li a {
   margin-left: 0;
 }
 
+a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 20px;
+  color: #6070ff;
+  text-decoration-line: none;
+}
+
+
+li a {
+  color: #344563;
+  margin-left: -40px;
+  padding-right: 35px;
+}
+
+.mobile-item a {
+  color: #fff;
+}
+
 .mobile-nav a {
   font-size: 32px;
 }
@@ -1147,15 +1118,15 @@ li a {
   font-size: 12px;
 }
 
-.mobile-item .close {
-  padding-top: 50px;
-  text-align: right;
-  padding-right: 38px;
-  font-weight: lighter;
-}
-
-.mobile-nav {
-  padding: 15px 28px;
+.technology a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6070ff;
+  border-radius: 8px;
+  text-align: center;
+  background: #ebebff;
+  padding: 5px 10px;
+  margin-left: 0;
 }
 
 .flex-item2 {
@@ -1267,20 +1238,6 @@ p {
 .grid-item img {
   width: 100%;
   height: 220px;
-}
-
-.about-myself {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 20px;
-  padding-top: 100px;
-  border-top-right-radius: 25% 50px;
-}
-
-.contact-icon {
-  margin-left: 45px;
-  padding-bottom: 20px;
 }
 
 .about-myself button {
