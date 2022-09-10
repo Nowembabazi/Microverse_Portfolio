@@ -1351,7 +1351,6 @@
   .social-icon {
     list-style-type: none;
     display: flex;
-    gap: 20px;
     padding: 1px;
     margin: 1px;
   }
