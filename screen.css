@@ -1387,10 +1387,9 @@
   }
 
   .desk-item1 {
-    padding-top: 50px;
     padding-right: 30px;
     padding-left: 40px;
-    height: auto;
+    height: 430px;
     display: flex;
   }
 
@@ -1721,10 +1720,12 @@
     background: #fff;
     margin: 50px 100px;
     border-radius: 10px;
+    height: auto;
+    width: auto;
   }
 
   .work-image > img {
-    width: 100%;
+    width: 80%;
   }
 
   .titles-item {
@@ -1758,6 +1759,8 @@
   .project-tags {
     display: flex;
     flex-direction: row;
+    padding-left: 30px;
+    padding-right: 150px;
   }
 
   .work-description {
@@ -1770,6 +1773,7 @@
 
   .tags {
     width: 25%;
+    margin-left: -30px;
   }
 
   .tags > ul {
@@ -1794,7 +1798,9 @@
 
   .btn-tags {
     border-top: 1px solid rgb(236, 234, 234);
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
   }
 
   a.btn-see-project {

@@ -130,8 +130,8 @@ const displayPopupModal = (i) => {
       </ul>
       </div>
       <div class="works-flex-item work-image">
-          <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" alt="${projectDetail[i].title} project screenshot"/>
-          <img src="${projectDetail[i].imageDeskPopup}" class="desk-item1" alt="${projectDetail[i].title} project screenshot"/>
+          <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" alt=""/>
+          <img src="${projectDetail[i].imageDeskPopup}" class="desk-item1" alt=""/>
       </div>
       <div class="project-tags">
           <div class="work-description">
