@@ -1352,6 +1352,7 @@
     list-style-type: none;
     display: flex;
     padding: 1px;
+    gap: 20px;
     margin: 1px;
   }
 
