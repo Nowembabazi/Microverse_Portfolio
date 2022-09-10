@@ -13,6 +13,7 @@ closeMobileItems.forEach((element) =>
   element.addEventListener("click", closeMobileMenu)
 );
 /* Project Detail objects */
+
 const projectDetail = [{
   title: ['Tonic'],
   exprience: ['CANOPY', 'Back End Dev', '2015'],
